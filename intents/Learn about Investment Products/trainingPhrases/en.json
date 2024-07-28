@@ -1,0 +1,47 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "How can I invest with ",
+      "auto": true
+    }, {
+      "text": "Owl Bank",
+      "parameterId": "person"
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What are your investment products?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What investment options do "
+    }, {
+      "text": "Owl Bank",
+      "parameterId": "person"
+    }, {
+      "text": " offer"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to learn more about ",
+      "auto": true
+    }, {
+      "text": "Owl Bank",
+      "parameterId": "person"
+    }, {
+      "text": "'s investment products",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

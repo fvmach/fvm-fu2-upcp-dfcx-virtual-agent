@@ -1,0 +1,23 @@
+{
+  "name": "07be928e-04f2-4dee-9b45-d9b561f313c3",
+  "displayName": "Owl Bank Lead",
+  "placeholders": [ {
+    "id": "context",
+    "name": "context"
+  }, {
+    "id": "user_name",
+    "name": "user_name"
+  }, {
+    "id": "channel",
+    "name": "channel"
+  } ],
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 128,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "gemini-1.5-flash"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "adc064d9-70af-4302-a0c3-4da2e526188e",
+  "displayName": "Products",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "generators": [ {
+      "generator": "projects/cefbot-pysd/locations/global/agents/3f57644e-2c45-4cd8-9493-ebad054144fe/generators/0b7e96d4-77e5-4d70-aa97-a11da434c6bd",
+      "inputParameters": [ {
+        "key": "country",
+        "value": "Brazil"
+      } ],
+      "outputParameter": "$request.generative."
+    } ]
+  }
+}

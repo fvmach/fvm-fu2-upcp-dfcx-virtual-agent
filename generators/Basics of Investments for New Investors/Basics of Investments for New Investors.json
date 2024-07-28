@@ -1,0 +1,17 @@
+{
+  "name": "4b44766f-f763-45fd-ac87-a170ded20af7",
+  "displayName": "Basics of Investments for New Investors",
+  "placeholders": [ {
+    "id": "country",
+    "name": "country"
+  } ],
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 128,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "gemini-1.5-flash"
+  }
+}

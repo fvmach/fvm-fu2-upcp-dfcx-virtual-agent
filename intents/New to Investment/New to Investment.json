@@ -1,0 +1,7 @@
+{
+  "name": "ba484989-7d04-49b5-b9c5-e3d12f0dc007",
+  "displayName": "New to Investment",
+  "priority": 500000,
+  "description": "This intent is triggered when the user is new or interested in investment products.",
+  "numTrainingPhrases": 20
+}

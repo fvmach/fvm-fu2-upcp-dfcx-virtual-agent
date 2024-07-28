@@ -1,0 +1,43 @@
+{
+  "entities": [ {
+    "value": "Owl Bank",
+    "synonyms": [ "Owl Bank" ],
+    "languageCode": "en"
+  }, {
+    "value": "Owl Marketplace",
+    "synonyms": [ "Owl Marketplace" ],
+    "languageCode": "en"
+  }, {
+    "value": "Owl Investments",
+    "synonyms": [ "Owl Investments" ],
+    "languageCode": "en"
+  }, {
+    "value": "Owl App",
+    "synonyms": [ "Owl App" ],
+    "languageCode": "en"
+  }, {
+    "value": "Owl Account",
+    "synonyms": [ "Owl Account" ],
+    "languageCode": "en"
+  }, {
+    "value": "Owl Credit Card",
+    "synonyms": [ "Owl Credit Card" ],
+    "languageCode": "en"
+  }, {
+    "value": "Owl Loans",
+    "synonyms": [ "Owl Loans" ],
+    "languageCode": "en"
+  }, {
+    "value": "Owl Broker",
+    "synonyms": [ "Owl Broker" ],
+    "languageCode": "en"
+  }, {
+    "value": "Owl Assistant",
+    "synonyms": [ "Owl Assistant" ],
+    "languageCode": "en"
+  }, {
+    "value": "Owl Advisory",
+    "synonyms": [ "Owl Advisory" ],
+    "languageCode": "en"
+  } ]
+}

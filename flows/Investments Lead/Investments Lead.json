@@ -1,0 +1,171 @@
+{
+  "name": "b0072a97-f40a-4a78-b833-3372c6eba454",
+  "displayName": "Investments Lead",
+  "transitionRoutes": [ {
+    "intent": "New to Investment",
+    "triggerFulfillment": {
+      "generators": [ {
+        "generator": "projects/cefbot-pysd/locations/global/agents/3f57644e-2c45-4cd8-9493-ebad054144fe/generators/4b44766f-f763-45fd-ac87-a170ded20af7",
+        "inputParameters": [ {
+          "key": "country",
+          "value": "Brazil"
+        } ],
+        "outputParameter": "$request.generative."
+      }, {
+        "generator": "projects/cefbot-pysd/locations/global/agents/3f57644e-2c45-4cd8-9493-ebad054144fe/generators/506ff445-63fb-4066-b7b0-9cf454b3695e",
+        "inputParameters": [ {
+          "key": "country",
+          "value": "Brazil"
+        } ],
+        "outputParameter": "$request.generative."
+      } ]
+    },
+    "name": "2a9c53e5-923c-4bf5-aef2-18ec53c58abc"
+  }, {
+    "intent": "Learn about Investment Products",
+    "triggerFulfillment": {
+      "generators": [ {
+        "generator": "projects/cefbot-pysd/locations/global/agents/3f57644e-2c45-4cd8-9493-ebad054144fe/generators/0b7e96d4-77e5-4d70-aa97-a11da434c6bd",
+        "inputParameters": [ {
+          "key": "country",
+          "value": "Brazil"
+        } ],
+        "outputParameter": "$request.generative."
+      } ]
+    },
+    "name": "af46906e-aebb-432b-9e65-d1417be73700"
+  }, {
+    "intent": "Investment Profiles",
+    "triggerFulfillment": {
+      "generators": [ {
+        "generator": "projects/cefbot-pysd/locations/global/agents/3f57644e-2c45-4cd8-9493-ebad054144fe/generators/5183f502-f6c4-4afb-b876-669f7265084c",
+        "inputParameters": [ {
+          "key": "country",
+          "value": "Brazil"
+        } ],
+        "outputParameter": "$request.generative."
+      } ]
+    },
+    "name": "57cec8dd-40f0-4ab4-9dcc-be13e24a1be7"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Lamento, mas não compreendi.", "Desculpe, mas não compreendi.", "Infelizmente, não captei o que deseja.", "Não consegui compreender, desculpe." ]
+        },
+        "languageCode": "pt-br"
+      }, {
+        "text": {
+          "text": [ "Ups, no he entendido a que te refieres.", "¿Podrías repetirlo, por favor?", "¿Disculpa?", "¿Decías?", "¿Cómo?" ]
+        },
+        "languageCode": "es-419"
+      }, {
+        "text": {
+          "text": [ "Ups, no he entendido a que te refieres.", "¿Podrías repetirlo, por favor?", "¿Disculpa?", "¿Decías?", "¿Cómo?" ]
+        },
+        "languageCode": "es"
+      }, {
+        "text": {
+          "text": [ "Lamento, mas não compreendi.", "Desculpe, mas não compreendi.", "Infelizmente, não captei o que deseja.", "Não consegui compreender, desculpe." ]
+        },
+        "languageCode": "pt-br"
+      }, {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en-us"
+      } ]
+    },
+    "name": "9b1d2138-dae5-43fd-afb7-61bc8e272a57"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Lamento, mas não compreendi.", "Desculpe, mas não compreendi.", "Infelizmente, não captei o que deseja.", "Não consegui compreender, desculpe." ]
+        },
+        "languageCode": "pt-br"
+      }, {
+        "text": {
+          "text": [ "Ups, no he entendido a que te refieres.", "¿Podrías repetirlo, por favor?", "¿Disculpa?", "¿Decías?", "¿Cómo?" ]
+        },
+        "languageCode": "es-419"
+      }, {
+        "text": {
+          "text": [ "Ups, no he entendido a que te refieres.", "¿Podrías repetirlo, por favor?", "¿Disculpa?", "¿Decías?", "¿Cómo?" ]
+        },
+        "languageCode": "es"
+      }, {
+        "text": {
+          "text": [ "Lamento, mas não compreendi.", "Desculpe, mas não compreendi.", "Infelizmente, não captei o que deseja.", "Não consegui compreender, desculpe." ]
+        },
+        "languageCode": "pt-br"
+      }, {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en-us"
+      } ]
+    },
+    "name": "88f436bb-26de-457f-a821-9dca8f186983"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC",
+    "multiIntentSettings": {
+    
+    }
+  },
+  "advancedSettings": {
+    "enabled": true,
+    "dtmfSettings": {
+      "enabled": true,
+      "finishDigit": "#",
+      "interdigitTimeoutDuration": {
+        "seconds": 5
+      },
+      "endpointingTimeoutDuration": {
+        "seconds": 5
+      }
+    }
+  },
+  "knowledgeConnectorSettings": {
+    "enabled": true,
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "$request.knowledge.answers[0]" ]
+        },
+        "languageCode": "en"
+      } ],
+      "generators": [ {
+        "generator": "projects/cefbot-pysd/locations/global/agents/3f57644e-2c45-4cd8-9493-ebad054144fe/generators/4b44766f-f763-45fd-ac87-a170ded20af7",
+        "inputParameters": [ {
+          "key": "country",
+          "value": "Brazil"
+        } ],
+        "outputParameter": "$request.generative."
+      }, {
+        "generator": "projects/cefbot-pysd/locations/global/agents/3f57644e-2c45-4cd8-9493-ebad054144fe/generators/506ff445-63fb-4066-b7b0-9cf454b3695e",
+        "inputParameters": [ {
+          "key": "country",
+          "value": "Brazil"
+        } ],
+        "outputParameter": "$request.generative."
+      } ]
+    },
+    "dataStoreConnections": [ {
+      "dataStoreType": "PUBLIC_WEB",
+      "dataStore": "projects/815338098742/locations/global/collections/default_collection/dataStores/owl-bank-faqs_1721020765324",
+      "languageCode": "en",
+      "documentProcessingMode": "DOCUMENTS"
+    } ]
+  },
+  "multiLanguageSettings": {
+    "enableMultiLanguageDetection": true,
+    "supportedResponseLanguageCodes": [ "en", "es", "es-419" ]
+  }
+}

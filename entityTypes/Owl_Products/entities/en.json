@@ -1,0 +1,27 @@
+{
+  "entities": [ {
+    "value": "my account",
+    "synonyms": [ "my account", "my owl account", "owl account" ],
+    "languageCode": "en"
+  }, {
+    "value": "my card",
+    "synonyms": [ "my card", "my owl card", "my owl credit card" ],
+    "languageCode": "en"
+  }, {
+    "value": "my purchase",
+    "synonyms": [ "my marketplace purchase", "my purchase" ],
+    "languageCode": "en"
+  }, {
+    "value": "my reward",
+    "synonyms": [ "my marketplace reward", "my owl reward", "my reward" ],
+    "languageCode": "en"
+  }, {
+    "value": "my loan",
+    "synonyms": [ "my loan", "my owl bank loan" ],
+    "languageCode": "en"
+  }, {
+    "value": "my investments",
+    "synonyms": [ "my assets", "my investment", "my investments", "my positions", "my stocks", "my wealth" ],
+    "languageCode": "en"
+  } ]
+}

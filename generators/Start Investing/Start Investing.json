@@ -1,0 +1,17 @@
+{
+  "name": "506ff445-63fb-4066-b7b0-9cf454b3695e",
+  "displayName": "Start Investing",
+  "placeholders": [ {
+    "id": "country",
+    "name": "country"
+  } ],
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 128,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "gemini-1.5-flash"
+  }
+}

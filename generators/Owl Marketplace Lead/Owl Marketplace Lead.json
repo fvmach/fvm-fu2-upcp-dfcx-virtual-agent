@@ -1,0 +1,23 @@
+{
+  "name": "5baf1979-f275-4e52-8aa0-c6b63c1f2aea",
+  "displayName": "Owl Marketplace Lead",
+  "placeholders": [ {
+    "id": "context",
+    "name": "context"
+  }, {
+    "id": "user_name",
+    "name": "user_name"
+  }, {
+    "id": "channel",
+    "name": "channel"
+  } ],
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 128,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "gemini-1.5-flash"
+  }
+}

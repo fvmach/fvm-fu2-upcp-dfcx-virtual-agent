@@ -1,0 +1,17 @@
+{
+  "name": "0b7e96d4-77e5-4d70-aa97-a11da434c6bd",
+  "displayName": "Investment Products",
+  "placeholders": [ {
+    "id": "country",
+    "name": "country"
+  } ],
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 128,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "gemini-1.5-flash"
+  }
+}

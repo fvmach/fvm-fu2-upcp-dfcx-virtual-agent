@@ -1,0 +1,17 @@
+{
+  "name": "5c49f962-dd32-4525-8725-2cd2ff8dfe45",
+  "displayName": "Investment News",
+  "placeholders": [ {
+    "id": "country",
+    "name": "country"
+  } ],
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 128,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "gemini-1.5-flash"
+  }
+}
