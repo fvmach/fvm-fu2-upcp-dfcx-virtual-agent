@@ -2,11 +2,13 @@
   "defaultLanguageCode": "pt-br",
   "supportedLanguageCodes": [ "en", "es", "en-us", "es-419" ],
   "timeZone": "America/Buenos_Aires",
+  "enableLogging": true,
   "projectNumber": 815338098742,
   "speechToTextSettings": {
     "enableSpeechAdaptation": true
   },
   "startFlow": "Default Start Flow",
+  "enableStackdriverLogging": true,
   "advancedSettings": {
     "enabled": true,
     "audioExportGcsDestination": {
@@ -37,7 +39,9 @@
       }
     },
     "loggingSettings": {
-    
+      "enableStackdriverLogging": true,
+      "enableInteractionLogging": true,
+      "enableConsentBasedRedaction": true
     }
   },
   "speakerIdSettings": {
@@ -47,13 +51,13 @@
   
   },
   "genAppBuilderSettings": {
-    "engine": "projects/815338098742/locations/global/collections/default_collection/engines/3f57644e-2c45-4cd8-9493-ebad054144fe"
+    "engine": "projects/815338098742/locations/global/collections/default_collection/engines/61de3f02-f368-4eb0-91e5-ce7b282f42f1"
   },
   "duplexSettings": {
   
   },
   "answerFeedbackSettings": {
-  
+    "enableAnswerFeedback": true
   },
   "enableMultiLanguageTraining": true,
   "webClientSettings": {
