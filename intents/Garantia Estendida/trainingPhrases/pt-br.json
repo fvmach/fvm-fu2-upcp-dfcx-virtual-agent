@@ -1,0 +1,77 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "garantia ",
+      "auto": true
+    }, {
+      "text": "do",
+      "parameterId": "color",
+      "auto": true
+    }, {
+      "text": " smartphone",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pt-br"
+  }, {
+    "parts": [ {
+      "text": "garantia ",
+      "auto": true
+    }, {
+      "text": "do",
+      "parameterId": "color",
+      "auto": true
+    }, {
+      "text": " meu celular",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pt-br"
+  }, {
+    "parts": [ {
+      "text": "É sobre a garantia de ",
+      "auto": true
+    }, {
+      "text": "um",
+      "parameterId": "number",
+      "auto": true
+    }, {
+      "text": " produto que comprei",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pt-br"
+  }, {
+    "parts": [ {
+      "text": "Comprei um produto com",
+      "parameterId": "url",
+      "auto": true
+    }, {
+      "text": " garantia estendida",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pt-br"
+  }, {
+    "parts": [ {
+      "text": "É sobre a garantia ",
+      "auto": true
+    }, {
+      "text": "do",
+      "parameterId": "color",
+      "auto": true
+    }, {
+      "text": " meu produto",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pt-br"
+  }, {
+    "parts": [ {
+      "text": "Quero falar sobre garantia estendida",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pt-br"
+  } ]
+}

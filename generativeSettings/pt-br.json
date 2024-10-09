@@ -1,6 +1,6 @@
 {
   "fallbackSettings": {
-  
+    "selectedPrompt": "Default"
   },
   "generativeSafetySettings": {
     "raiSettings": {
@@ -37,6 +37,10 @@
   "languageCode": "pt-br",
   "knowledgeConnectorSettings": {
     "business": "Owl Bank",
+    "agent": "Owl Bank Virtual Assistant",
+    "agentIdentity": "AI Assistant and Financial Concierge",
+    "businessDescription": "Financial Services and high tech gadgets marketplace",
+    "agentScope": "calling in company phone numbers",
     "mainLlmConfig": {
     
     }

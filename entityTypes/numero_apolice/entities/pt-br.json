@@ -1,0 +1,7 @@
+{
+  "entities": [ {
+    "value": "Número da Apólice",
+    "synonyms": [ "Apólice", "Apólice do Seguro", "Código da Apólice", "Número da Apólice" ],
+    "languageCode": "pt-br"
+  } ]
+}

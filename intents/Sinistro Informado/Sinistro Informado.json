@@ -1,0 +1,10 @@
+{
+  "name": "063457f6-d411-4bd3-a89a-87a600e303e9",
+  "displayName": "Sinistro Informado",
+  "parameters": [ {
+    "id": "numero_sinistro",
+    "entityType": "@numero_sinistro"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 6
+}

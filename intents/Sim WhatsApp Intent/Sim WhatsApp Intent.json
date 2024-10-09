@@ -1,0 +1,13 @@
+{
+  "name": "3374831c-243c-430e-a3d6-b2d73227c570",
+  "displayName": "Sim WhatsApp Intent",
+  "parameters": [ {
+    "id": "last-name",
+    "entityType": "@sys.last-name"
+  }, {
+    "id": "language",
+    "entityType": "@sys.language"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 12
+}

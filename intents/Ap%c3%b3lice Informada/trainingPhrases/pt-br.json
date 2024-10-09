@@ -1,0 +1,68 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "a ",
+      "auto": true
+    }, {
+      "text": "apólice"
+    }, {
+      "text": " é a ",
+      "auto": true
+    }, {
+      "text": "98721348490",
+      "parameterId": "numero_apolice"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pt-br"
+  }, {
+    "parts": [ {
+      "text": "o seguro é ",
+      "auto": true
+    }, {
+      "text": "787378423847723",
+      "parameterId": "numero_apolice"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pt-br"
+  }, {
+    "parts": [ {
+      "text": "O número é ",
+      "auto": true
+    }, {
+      "text": "09283324-345345",
+      "parameterId": "numero_apolice"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pt-br"
+  }, {
+    "parts": [ {
+      "text": "Minha ",
+      "auto": true
+    }, {
+      "text": "apólice"
+    }, {
+      "text": " é a ",
+      "auto": true
+    }, {
+      "text": "092810-4-235",
+      "parameterId": "numero_apolice"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pt-br"
+  }, {
+    "parts": [ {
+      "text": "O ",
+      "auto": true
+    }, {
+      "text": "número da minha apólice"
+    }, {
+      "text": " é ",
+      "auto": true
+    }, {
+      "text": "2987094825-29-45",
+      "parameterId": "numero_apolice"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pt-br"
+  } ]
+}

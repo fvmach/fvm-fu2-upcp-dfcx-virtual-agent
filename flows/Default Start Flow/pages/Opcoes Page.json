@@ -1,0 +1,40 @@
+{
+  "name": "6a09af83-01b1-4345-8be0-b84785b137d8",
+  "displayName": "Opcoes Page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Como posso te ajudar hoje?", "Como posso ajudar?", "Como podemos ajudar?" ]
+      },
+      "languageCode": "pt-br"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Garantia Estendida",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "A Garantia Estendida somente começa a valer após o período de garantia do fabricante. Por favor, antes de continuarmos, verifique se o produto já está fora da garantia original, consultando a data no certificado de garantia do fabricante.", "Sua garantia estendida só passa a valer após o término da garantia do fabricante do seu produto. Verifique no certificado de garantia se a garantia original do fabricante já expirou." ]
+        },
+        "languageCode": "pt-br"
+      } ]
+    },
+    "targetPage": "Garantia Estendida Page",
+    "name": "8a7a8bdb-4d56-463f-b533-1dac79f96a6f"
+  }, {
+    "intent": "Seguro Eletrônicos",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Claro. Posso te ajudar com seu seguro.", "Certo, posso te ajudar com informações sobre seu seguro.", "OK. Entendi que você quer falar sobre o seu seguro." ]
+        },
+        "languageCode": "pt-br"
+      } ]
+    },
+    "targetPage": "Seguro Eletronicos Page",
+    "name": "e1c07c3c-9df7-4fee-bbd0-bd4a768dfd9e"
+  } ]
+}

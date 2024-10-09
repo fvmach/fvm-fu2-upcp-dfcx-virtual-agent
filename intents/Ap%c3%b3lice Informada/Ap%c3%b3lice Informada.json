@@ -1,0 +1,10 @@
+{
+  "name": "68a172fe-a927-4334-817f-a59a0b1eb88e",
+  "displayName": "Apólice Informada",
+  "parameters": [ {
+    "id": "numero_apolice",
+    "entityType": "@numero_apolice"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 5
+}

@@ -1,0 +1,35 @@
+{
+  "name": "74cb6ec9-f27d-4ebf-a64f-711a7541ebd8",
+  "displayName": "Garantia Estendida Page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Por favor, informe o número do seu sinistro.", "Informe o número do sinistro.", "Favor informe o número do sinistro" ]
+      },
+      "languageCode": "pt-br"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Sinistro Informado",
+    "triggerFulfillment": {
+      "messages": [ {
+        "liveAgentHandoff": {
+          "metadata": {
+          
+          }
+        },
+        "languageCode": "pt-br"
+      }, {
+        "text": {
+          "text": [ "Certo. Estou te transferindo para o atendimento humano. Só um instante, por favor." ]
+        },
+        "languageCode": "pt-br"
+      } ]
+    },
+    "targetPage": "END_FLOW_WITH_HUMAN_ESCALATION",
+    "name": "afdb7ef4-462a-4053-b5ed-0081a73b2bc4"
+  } ]
+}

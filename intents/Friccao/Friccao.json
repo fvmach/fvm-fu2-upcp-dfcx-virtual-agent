@@ -1,0 +1,17 @@
+{
+  "name": "00000000-0000-0000-0000-000000000001",
+  "displayName": "Friccao",
+  "parameters": [ {
+    "id": "url",
+    "entityType": "@sys.url"
+  }, {
+    "id": "number",
+    "entityType": "@sys.number"
+  }, {
+    "id": "date-time",
+    "entityType": "@sys.date-time"
+  } ],
+  "priority": 500000,
+  "isFallback": true,
+  "numTrainingPhrases": 18
+}

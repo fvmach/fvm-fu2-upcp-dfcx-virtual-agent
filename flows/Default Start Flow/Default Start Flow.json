@@ -7,19 +7,14 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "Hi, $user_name! Welcome to Owl Bank! I'm your virtual assistant.", "Hello, $user_name! Welcome to Owl Bank! I'm your virtual assistant." ]
-        },
-        "languageCode": "en"
-      }, {
-        "text": {
-          "text": [ "Olá!", "Oi!" ]
+          "text": [ "Boas-vindas ao atendimento digital da Assurant.", "A Assurant te dá as boas-vindas ao seu novo atendimento digital", "Olá! Este é o seu novo atendimento digital Assurant." ]
         },
         "languageCode": "pt-br"
       }, {
         "text": {
           "text": [ "Hi! How are you doing?", "Hello! How can I help you?", "Good day! What can I do for you today?", "Greetings! How can I assist?" ]
         },
-        "languageCode": "en-us"
+        "languageCode": "en"
       }, {
         "text": {
           "text": [ "¡Hola!", "¡Hey!", "¡Buenos días!" ]
@@ -32,18 +27,15 @@
         "languageCode": "es-419"
       } ]
     },
-    "name": "9e25014c-5920-496f-bb09-ca11d0523463"
+    "targetPage": "WhatsApp Prompt",
+    "name": "75cc8740-3b46-4d16-9a49-98abbb8b888c"
   } ],
   "eventHandlers": [ {
+    "targetPage": "Current Page",
     "event": "sys.no-match-default",
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
-        },
-        "languageCode": "en"
-      }, {
-        "text": {
           "text": [ "Lamento, mas não compreendi.", "Desculpe, mas não compreendi.", "Infelizmente, não captei o que deseja.", "Não consegui compreender, desculpe." ]
         },
         "languageCode": "pt-br"
@@ -51,7 +43,7 @@
         "text": {
           "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
         },
-        "languageCode": "en-us"
+        "languageCode": "en"
       }, {
         "text": {
           "text": [ "Ups, no he entendido a que te refieres.", "¿Podrías repetirlo, por favor?", "¿Disculpa?", "¿Decías?", "¿Cómo?" ]
@@ -64,17 +56,13 @@
         "languageCode": "es-419"
       } ]
     },
-    "name": "52d0dc3b-0dfa-4447-b906-fdf5fc29b718"
+    "name": "7fe5beb4-75c9-423a-88f9-0e78d58328ee"
   }, {
+    "targetPage": "Current Page",
     "event": "sys.no-input-default",
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
-        },
-        "languageCode": "en"
-      }, {
-        "text": {
           "text": [ "Lamento, mas não compreendi.", "Desculpe, mas não compreendi.", "Infelizmente, não captei o que deseja.", "Não consegui compreender, desculpe." ]
         },
         "languageCode": "pt-br"
@@ -82,7 +70,7 @@
         "text": {
           "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
         },
-        "languageCode": "en-us"
+        "languageCode": "en"
       }, {
         "text": {
           "text": [ "Ups, no he entendido a que te refieres.", "¿Podrías repetirlo, por favor?", "¿Disculpa?", "¿Decías?", "¿Cómo?" ]
@@ -95,14 +83,22 @@
         "languageCode": "es-419"
       } ]
     },
-    "name": "17e897da-9f14-4db7-a9f8-7dd99635ebc5"
+    "name": "194984db-fd04-4407-a043-9e8f60999fc8"
+  }, {
+    "targetPage": "Current Page",
+    "event": "sys.no-input-1",
+    "triggerFulfillment": {
+    
+    },
+    "name": "b2e6c234-0dbf-4b84-9bcb-874b4c7fed50"
   } ],
   "nluSettings": {
     "modelType": "MODEL_TYPE_ADVANCED",
-    "classificationThreshold": 0.30000001
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC"
   },
   "multiLanguageSettings": {
     "enableMultiLanguageDetection": true,
-    "supportedResponseLanguageCodes": [ "en", "es", "en-us", "es-419", "pt-br" ]
+    "supportedResponseLanguageCodes": [ "en", "es", "pt-br", "es-419" ]
   }
 }

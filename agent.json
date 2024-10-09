@@ -1,6 +1,6 @@
 {
   "defaultLanguageCode": "pt-br",
-  "supportedLanguageCodes": [ "en", "es", "en-us", "es-419" ],
+  "supportedLanguageCodes": [ "en", "es", "es-419" ],
   "timeZone": "America/Buenos_Aires",
   "enableLogging": true,
   "projectNumber": 815338098742,
@@ -22,15 +22,13 @@
       "models": [ {
         "key": "en",
         "value": "default"
-      } ],
-      "enableSmartEndpointing": true
+      } ]
     },
     "playbackInterruptionSettings": {
       "allowPlaybackInterruption": true
     },
     "dtmfSettings": {
       "enabled": true,
-      "finishDigit": "#",
       "interdigitTimeoutDuration": {
         "seconds": 5
       },
@@ -40,18 +38,29 @@
     },
     "loggingSettings": {
       "enableStackdriverLogging": true,
-      "enableInteractionLogging": true,
-      "enableConsentBasedRedaction": true
+      "enableInteractionLogging": true
     }
   },
   "speakerIdSettings": {
   
   },
   "textToSpeechSettings": {
-  
-  },
-  "genAppBuilderSettings": {
-    "engine": "projects/815338098742/locations/global/collections/default_collection/engines/61de3f02-f368-4eb0-91e5-ce7b282f42f1"
+    "synthesizeSpeechConfigs": [ {
+      "key": "en",
+      "value": {
+        "voice": {
+        
+        }
+      }
+    }, {
+      "key": "pt-br",
+      "value": {
+        "voice": {
+          "name": "pt-BR-Neural2-B",
+          "ssmlGender": "SSML_VOICE_GENDER_MALE"
+        }
+      }
+    } ]
   },
   "duplexSettings": {
   

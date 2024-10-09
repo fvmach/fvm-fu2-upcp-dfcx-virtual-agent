@@ -1,0 +1,76 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "é o "
+    }, {
+      "text": "92879084023-433",
+      "parameterId": "numero_sinistro"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pt-br"
+  }, {
+    "parts": [ {
+      "text": "sinistro"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "329847290879",
+      "parameterId": "numero_sinistro"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pt-br"
+  }, {
+    "parts": [ {
+      "text": "o número é ",
+      "auto": true
+    }, {
+      "text": "12983919",
+      "parameterId": "numero_sinistro"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pt-br"
+  }, {
+    "parts": [ {
+      "text": "o ",
+      "auto": true
+    }, {
+      "text": "sinistro"
+    }, {
+      "text": " é o ",
+      "auto": true
+    }, {
+      "text": "98273901839048230",
+      "parameterId": "numero_sinistro"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pt-br"
+  }, {
+    "parts": [ {
+      "text": "sinistro"
+    }, {
+      "text": " de número ",
+      "auto": true
+    }, {
+      "text": "09834-09823-49",
+      "parameterId": "numero_sinistro"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pt-br"
+  }, {
+    "parts": [ {
+      "text": "O ",
+      "auto": true
+    }, {
+      "text": "número do sinistro"
+    }, {
+      "text": " é ",
+      "auto": true
+    }, {
+      "text": "2900983421",
+      "parameterId": "numero_sinistro"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pt-br"
+  } ]
+}

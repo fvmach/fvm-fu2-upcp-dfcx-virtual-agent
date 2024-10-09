@@ -1,0 +1,16 @@
+{
+  "name": "5e49956d-b389-449c-90c2-4f027c400912",
+  "displayName": "Garantia Estendida",
+  "parameters": [ {
+    "id": "color",
+    "entityType": "@sys.color"
+  }, {
+    "id": "url",
+    "entityType": "@sys.url"
+  }, {
+    "id": "number",
+    "entityType": "@sys.number"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 6
+}

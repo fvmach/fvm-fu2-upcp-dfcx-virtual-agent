@@ -1,0 +1,7 @@
+{
+  "entities": [ {
+    "value": "Número do Sinistro",
+    "synonyms": [ "Código do Sinistro", "Número do Sinistro", "Sinistro" ],
+    "languageCode": "pt-br"
+  } ]
+}

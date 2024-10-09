@@ -1,0 +1,35 @@
+{
+  "name": "0c6d6e77-10db-4875-b3dd-82fbdfb4e723",
+  "displayName": "Seguro Eletronicos Page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Digite o número da sua apólice.", "Por favor, informe o número de sua apólice.", "Digite ou fale o número da sua apólice.", "Fale ou digite o número da sua apólice." ]
+      },
+      "languageCode": "pt-br"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Apólice Informada",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "OK! Estou te transferindo para o atendimento humano. Só um instante." ]
+        },
+        "languageCode": "pt-br"
+      }, {
+        "liveAgentHandoff": {
+          "metadata": {
+          
+          }
+        },
+        "languageCode": "pt-br"
+      } ]
+    },
+    "targetPage": "END_FLOW_WITH_HUMAN_ESCALATION",
+    "name": "5d59f2af-55b4-4115-baf0-845d59675b79"
+  } ]
+}

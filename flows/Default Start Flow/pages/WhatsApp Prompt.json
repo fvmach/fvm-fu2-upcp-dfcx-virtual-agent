@@ -1,0 +1,44 @@
+{
+  "name": "24427637-01d6-4c62-9829-24ab4734d5c7",
+  "displayName": "WhatsApp Prompt",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Gostaria de seguir este atendimento pelo WhatsApp?", "Se preferir, podemos continuar esta conversa pelo WhatsApp. Gostaria de seguir por lá?", "Podemos continuar este atendimento por meio do WhatsApp. Gostaria de receber uma mensagem pelo celular agora?", "A Assurant também pode te atender por meio do WhatsApp. Você quer receber uma mensagem agora?" ]
+      },
+      "languageCode": "pt-br"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Não WhatsApp Intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Certo. Podemos continuar por telefone.", "OK, vamos continuar por aqui", "Sem problemas. Vamos continuar por telefone." ]
+        },
+        "languageCode": "pt-br"
+      } ]
+    },
+    "targetPage": "Opcoes Page",
+    "name": "f82bf63d-60ad-48eb-93dd-bb626e2fe3e5"
+  }, {
+    "intent": "Sim WhatsApp Intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "OK! Te mandei uma mensagem no WhatsApp. Obrigado!", "Certo. Acabei de te enviar uma mensagem pelo WhatsApp. Agradecemos a sua ligação.", "Ok. Te chamei pelo WhatsApp. Vou encerrar esta ligação. Obrigado." ]
+        },
+        "languageCode": "pt-br"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "channel",
+        "value": "WhatsApp"
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "8542e7ec-126c-4c83-b010-de3f8ac6300f"
+  } ]
+}

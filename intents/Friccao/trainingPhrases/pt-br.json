@@ -1,42 +1,102 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
-      "text": "preciso falar",
+      "text": "Robô chato",
       "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "pt-br"
   }, {
     "parts": [ {
-      "text": "quero falar",
+      "text": "Odeio robô",
       "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "pt-br"
   }, {
     "parts": [ {
-      "text": "preciso de ajuda",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "pt-br"
-  }, {
-    "parts": [ {
-      "text": "Boa ",
+      "text": "Não quero falar com",
+      "parameterId": "url",
       "auto": true
     }, {
-      "text": "noite",
-      "parameterId": "time-period",
+      "text": " robô",
       "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "pt-br"
   }, {
     "parts": [ {
-      "text": "Boa ",
+      "text": "Horrível esse chatbot",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pt-br"
+  }, {
+    "parts": [ {
+      "text": "Odeio chatbot",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pt-br"
+  }, {
+    "parts": [ {
+      "text": "Odiei",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pt-br"
+  }, {
+    "parts": [ {
+      "text": "Chatbot ruim",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pt-br"
+  }, {
+    "parts": [ {
+      "text": "Chatbot mal-feito",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pt-br"
+  }, {
+    "parts": [ {
+      "text": "Isso é horrível",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pt-br"
+  }, {
+    "parts": [ {
+      "text": "Atendimento ruim",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pt-br"
+  }, {
+    "parts": [ {
+      "text": "Péssimo atendimento",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "pt-br"
+  }, {
+    "parts": [ {
+      "text": "Quero falar com",
+      "parameterId": "url",
       "auto": true
     }, {
-      "text": "tarde",
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "uma",
+      "parameterId": "number",
+      "auto": true
+    }, {
+      "text": " pessoa ",
+      "auto": true
+    }, {
+      "text": "agora",
       "parameterId": "date-time",
       "auto": true
     } ],
@@ -44,87 +104,42 @@
     "languageCode": "pt-br"
   }, {
     "parts": [ {
-      "text": "Bom dia",
+      "text": "Muito ruim",
       "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "pt-br"
   }, {
-    "id": "febc00bd-be47-42df-a654-3be0647ff53b",
     "parts": [ {
-      "text": "há quanto tempo",
+      "text": "Péssimo",
       "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "pt-br"
   }, {
-    "id": "a9be88c2-aadb-4c60-885f-aaf34132196a",
     "parts": [ {
-      "text": "olá",
+      "text": "Não gostei",
       "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "pt-br"
   }, {
-    "id": "cb68f9a9-e696-4432-96e9-6cf60dc504a4",
     "parts": [ {
-      "text": "oi",
+      "text": "Cancelar",
       "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "pt-br"
   }, {
-    "id": "b8ee55e2-ca1a-4924-af5f-560e9dc31448",
     "parts": [ {
-      "text": "opa",
+      "text": "Encerrar",
       "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "pt-br"
   }, {
-    "id": "263b1a40-df6b-445d-99df-b404ddfe20b4",
     "parts": [ {
-      "text": "fala aí",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "pt-br"
-  }, {
-    "id": "b6cdb910-324c-47bf-b549-d28585975fb0",
-    "parts": [ {
-      "text": "fala",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "pt-br"
-  }, {
-    "id": "da0c055d-3dcd-430e-8493-b65ec37b7dfc",
-    "parts": [ {
-      "text": "saudações",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "pt-br"
-  }, {
-    "id": "bd76500c-f544-4300-aff5-ce9301d04503",
-    "parts": [ {
-      "text": "oi tudo bem",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "pt-br"
-  }, {
-    "id": "727de3ef-cbce-47e5-a879-b386c99962b2",
-    "parts": [ {
-      "text": "e aí",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "pt-br"
-  }, {
-    "id": "58935ac5-5664-499e-9a0a-958886d8979d",
-    "parts": [ {
-      "text": "eae",
+      "text": "Não",
       "auto": true
     } ],
     "repeatCount": 1,
